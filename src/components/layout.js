@@ -6,6 +6,7 @@ import styles from "components/layout.module.css";
 import utilStyles from "styles/utils.module.css";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import Utterances from "./Utterances";
 
 const name = "9yu9yu81";
 export const siteTitle = "9yu9yu81 Blog";
@@ -102,6 +103,7 @@ export default function Layout({ children, home }) {
           )}
         </header>
         <main>{children}</main>
+        <Utterances />
         {!home && (
           <div className={styles.backToHome}>
             <Link href="/">← Back to home</Link>
