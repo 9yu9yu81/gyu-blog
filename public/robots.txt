@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://gyu-blog.vercel.app
+
+# Sitemaps
+Sitemap: https://gyu-blog.vercel.app/sitemap.xml
